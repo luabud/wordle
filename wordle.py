@@ -1,8 +1,9 @@
+from base64 import b64decode
 import random
 
-words = ["apple", "words", "blues", "proud", "cloud", "brick"]
+from process_words import encoded_words
 
-answer_word = random.choice(words)
+answer_word = str(b64decode(random.choice(encoded_words)), "utf-8")
 guess_word = "ghost"
 
 answer_pairs = set(enumerate(answer_word))
@@ -39,4 +40,3 @@ for i, g in enumerate(guess_word):
         print("*", end=" ")
     else:
         print("_", end=" ")
-print(answer_word)
