@@ -26,7 +26,7 @@ If you don't have Python installed, you can follow the steps [here](https://code
 
 Once you're able to run the first cell, you can place your first guess by creating a new cell (Ctrl + Enter or ⌘ + Enter) and calling the `guess_word` function and passing a string with your first word to it. For example, you can try `guess_word("ghost")`.
 
-![Running cells by calling guess_word(string)to play the game.](\wordle\images\example.png)
+![Running cells by calling guess_word(string)to play the game.](https://github.com/luabud/wordle/blob/main/images/example.png?raw=true)
 
 For each guess you make, you will get:
 - `_` if you got the letter on the right position
