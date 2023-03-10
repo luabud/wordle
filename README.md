@@ -44,7 +44,7 @@ To play again, simply re-run the first cell and it will reset the turns and pick
 ### Play it in the Python file 📜
 
 #### 🌐 Web set up
- To play it on the web, simply open this repo in [vscode.dev](https://vscode.dev/), or  just press "." if you're reading this on GitHub to open it in [github.dev](https://github.dev/).
+To play it on the web, navigate to https://vscode.dev/github/luabud/wordle?vscode-coi=
 
 Open the Extensions view (`Ctrl + Shift + X` or `Cmd + Shift + X`) and install the "ms-vscode.vscode-python-web-wasm" extension publised by Microsoft.
 
